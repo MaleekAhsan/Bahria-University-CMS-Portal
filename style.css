@@ -1,0 +1,185 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+#first div:nth-last-of-type(1)
+{
+    background-color:#7A8C74;
+    text-align: center;
+    color: white;
+
+    max-width:400px;
+    width: 85%;
+    height: 150px;
+    border-radius:0.3rem;
+
+}
+#first div:nth-last-of-type(2)
+{
+    background-color:#005F9c;
+    text-align: center;
+    color: white;
+    max-width:400px;
+    width: 85%;
+    height: 150px;
+    border-radius:0.3rem;
+    
+
+}
+#second div:nth-last-of-type(1)
+{
+    background-color:#34495E;
+    color: white;
+    text-align: center;
+    max-width:400px;
+    width: 85%;
+    height: 150px;
+    border-radius:0.3rem;
+
+}
+#second div:nth-last-of-type(2)
+{
+    background-color: #615C5C ;
+    color: white;
+    text-align: center;
+    max-width:400px;
+    width: 85%;
+    height: 150px;
+    border-radius:0.3rem;
+
+}
+#head{
+    margin-right: 0px;
+    margin-top:0px;
+    background-color:#143569;
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+    padding-top:8px;
+    padding-bottom: 8px;
+    padding-left: 15px;
+    max-width: 100%;
+        
+}
+#first{
+    margin-top:5%;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+#second{
+    margin-top:5%;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+div{
+    font-size: 2.5rem;
+    font-weight:normal;
+
+}
+button,a{
+
+    text-decoration: none;
+    padding: 10px 10px;
+    border-radius: 0.3rem;
+    border:  white;
+
+}
+a{
+    color: black;
+}
+button:hover{
+    background-color:#717D7E;
+
+}
+a:hover{
+    color:white;
+    font-weight: bold;
+}
+.heading{
+    margin-top:10%;
+    font-family: sans-serif;
+}
+@media (max-width:900px) {
+    #first{
+        flex-direction: column;
+        align-items: center;
+
+    }
+    #second{
+        flex-direction: column;
+        align-items: center;
+    
+        
+
+    }    
+    div{
+        
+        font-size:x-large;
+        margin-bottom: 10px;
+        
+    }
+    button{
+        font-size: small;
+        padding:3px 10px;
+        margin-top: 5%;
+    }
+    #second{
+        margin-top: 5px;
+    }
+    #head{
+        max-width: 100%;
+        font-size: medium;
+    }
+    .heading{
+        margin-top:55px;
+    }
+   
+}
+
